@@ -1278,7 +1278,6 @@ void AP_OSD_Screen::draw_horizon(uint8_t x, uint8_t y)
             }
         }
     }
-    backend->write(x-1,y, false, "%c%c%c", SYM_AH_CENTER_LINE_LEFT, SYM_AH_CENTER, SYM_AH_CENTER_LINE_RIGHT);
 }
 
 void AP_OSD_Screen::draw_distance(uint8_t x, uint8_t y, float distance)
